@@ -1,12 +1,14 @@
 
 def fizzbuzz(int)
+  output = ""
   if int % 5 == 0 
     if int % 3 == 0 
-      puts "fizzbuzz"
-    else puts "buzz"
+      output = "fizzbuzz"
+    else output = "buzz"
     end 
   elsif int % 3 == 0 
-    puts "fizz"
+    output = "fizz"
   end 
+  output
 end 
     
